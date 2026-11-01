@@ -1,16 +1,39 @@
-# React + Vite
+# ⚽ GoalLink - Football Recruitment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-goal--link.vercel.app-00E5FF?style=for-the-badge)](https://goal-link.vercel.app)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)](https://firebase.google.com/)
 
-Currently, two official plugins are available:
+A modern, full-stack web application designed to connect Sri Lankan football players, clubs, and coaches. GoalLink streamlines the recruitment process by providing a professional platform for talent discovery, communication, and opportunity management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
+Experience the platform live: **[goal-link.vercel.app](https://goal-link.vercel.app)**
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### For Players
+- **Professional Profiles:** Create a comprehensive football CV with stats, bio, and career history.
+- **Discover Opportunities:** Browse and apply for trials, vacancies, and matches posted by clubs.
+- **Direct Messaging:** Communicate securely with clubs and coaches.
+- **Save for Later:** Bookmark interesting opportunities to review later.
 
-## Expanding the ESLint configuration
+### For Clubs & Coaches
+- **Smart Recruitment:** Search and filter players by position, location, and experience.
+- **Manage Opportunities:** Post trials, vacancies, and match details.
+- **Application Tracking:** Review, approve, or reject player applications.
+- **Shortlisting:** Save talented players to a dedicated shortlist.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technology Stack
+
+- **Frontend:** React.js (Vite), React Router v6, Tailwind CSS
+- **Backend:** Firebase (Authentication, Firestore Database)
+- **Deployment:** Vercel
+
+## 🚀 Getting Started (Local Development)
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/samhasadhik/GoalLink.git
+   cd GoalLink/app
